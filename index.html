@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>CRUD</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <input type="text" class="inputName" placeholder="Имя">
+                    <input type="text" class="inputSurname" placeholder="Фамилия">
+                    <input type="text" class="inputPost" placeholder="Должность">
+                    <input type="button" value="Добавить" class="addBtn">
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="personList">
+                <div class="container">
+                    <div class="personList__table">
+                        <table class="table">
+                            <tbody class="tableBody">
+                                <tr>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Surname</th>
+                                    <th>ID</th>
+                                    <th>Post</th>
+                                </tr>
+                                <!-- <tr class="person__1">
+                                    <td class="list__number">1</td>
+                                    <td class="person__name">Vasya</td>
+                                    <td class="person__surname">Pupkin</td>
+                                    <td class="person__id">1</td>
+                                    <td class="person__post">Designer</td>
+                                    <td><input type="button" value="Delete" class="deleteBtn"></td>
+                                    <td><input type="button" value="Edit"></td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <script src="./js/script.js"></script>
+    </body>
+</html>
