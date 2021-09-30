@@ -53,3 +53,10 @@ input {
 .tableBody tr th:first-child {
     opacity: 0;
 }
+
+.personList__table table .deleteBtn,
+.personList__table table .editBtn {
+    background-color: aqua;
+    width: 200px;
+    cursor: pointer;
+}
